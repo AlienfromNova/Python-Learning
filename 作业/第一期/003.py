@@ -8,3 +8,4 @@ for i in range(180):
     fd(i+i)
     left(61)
     width(i/30)
+    done()
