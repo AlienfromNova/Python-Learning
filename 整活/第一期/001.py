@@ -13,7 +13,7 @@ while player.hp>0 and monster.hp>0:
     print("玩家剩余生命%d"%player.hp)
     monster.hp-=monster.atk
     print("怪兽剩余生命%d"%monster.hp)
-t.sleep(1)
+    t.sleep(1)
 if player.hp>0 and monster.hp<=0:
     print("胜利")
 elif player.hp<=0 and monster.hp>0:
