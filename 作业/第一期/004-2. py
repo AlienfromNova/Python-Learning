@@ -1,0 +1,6 @@
+#004-2
+dayfactor=int(input("输入"))
+dayup=(1+dayfactor)**365
+daydown=(1-dayfactor)**365
+print(dayup)
+print(daydown)
