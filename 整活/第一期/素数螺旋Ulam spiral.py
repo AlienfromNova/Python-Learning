@@ -33,7 +33,6 @@ for i in range(1,int(10e10)):
         t.left(90)
         mark += 1
     if i ==2 or i == 5:
-        print("get it")
         t.color('red')
         t.dot(5)
         t.color('black')
