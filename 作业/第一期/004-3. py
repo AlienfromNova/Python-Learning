@@ -1,9 +1,0 @@
-#004-3
-dayup=1.0
-dayfactor=0.01
-for i in range(365):
-    if i%7 in [6,0]:
-        dayup*=1-dayfactor
-    else:
-        dayup*=1+dayfactor
-print(round(dayup,3))

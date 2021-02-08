@@ -1,6 +1,0 @@
-#004-2
-dayfactor=float(input("输入"))
-dayup=(1+dayfactor)**365
-daydown=(1-dayfactor)**365
-print(round(dayup,3))
-print(round(daydown,3))
